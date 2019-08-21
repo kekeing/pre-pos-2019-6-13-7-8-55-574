@@ -3,7 +3,7 @@
 
 describe('practice-2-2', () => {
 
-  const collection = [
+  const collectionA = [
     'a', 'a', 'a',
     'e', 'e', 'e', 'e', 'e', 'e', 'e',
     'h', 'h', 'h', 'h', 'h', 'h', 'h', 'h', 'h', 'h', 'h',
@@ -17,7 +17,7 @@ describe('practice-2-2', () => {
 
   it('把A集合中相同的元素统计出数量', () => {
 
-    const result = countSameElements(collection);
+    const result = countSameElements(collectionA);
 
     expect(result).toEqual([
       {key: 'a', count: 3},
