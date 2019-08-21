@@ -13,4 +13,7 @@ function collectSameElements(collectionA, collectionB) {
     }
   }
   return result;
+
+  
 }
+
